@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #383838;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: black;
+  padding: 20px 50px;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-targets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-targets a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.nav-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-social a {
+  color: white;
+  font-size: 1.3em;
+}
+
+.sec1 {
+  padding: 100px 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  min-height: 100vh;
+  background: url(images/Night-Sky.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sec1 h2 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.sec1 p {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.sec1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 100;
+  background-color: blue;
+  padding: 20px 30px;
+  border-radius: 15px;
+  transition: 0.4s ease;
+}
+
+.sec1 a:hover {
+  color: black;
+  background-color: lightskyblue;
+  transform: scale(1.1);
+}
+
+.sec2 {
+  background-color: white;
+  width: 100%;
+  padding: 100px;
+}
+
+.sec2 .title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.title span {
+  color: cornflowerblue;
+}
+
+.sec2 .desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.desc .icon {
+  width: 70em;
+  border: 8px solid cadetblue;
+}
+
+.icon img {
+  width: 100%;
+  margin: 20px 0px -20px 20px;
+}
+
+.info {
+  width: 90em;
+}
+
+.info .info-title {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+.info .info-desc {
+  color: cadetblue;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.info a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  background-color: cadetblue;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: 0.7s ease;
+}
+
+.info a:hover {
+  transform: scale(1.1);
+  background-color: aqua;
+  color: black;
+}
+
+.sec3 {
+  background-color: black;
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.sec3 .title {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+  width: 35em;
+}
+
+.service .icon {
+  color: cadetblue;
+  font-size: 2em;
+  align-self: flex-end;
+}
+
+.service .info .head {
+  color: cadetblue;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.service .info .desc {
+  font-size: 1em;
+  color: grey;
+}
