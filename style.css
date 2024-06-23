@@ -209,3 +209,108 @@ nav {
   font-size: 1em;
   color: grey;
 }
+
+.sec4 {
+  background-color: white;
+  width: 100%;
+  padding: 100px 50px;
+}
+
+.sec4 .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sec4 .cards .card {
+  width: 25em;
+  margin: 20px;
+  border: 1px solid cyan;
+}
+
+.part1 {
+  position: relative;
+}
+
+.card .part1 img {
+  height: 13.5em;
+  width: 100%;
+}
+
+.card .part1 p {
+  background-color: lightskyblue;
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  padding: 10px;
+}
+
+.card .part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.card .part2 h2 {
+  letter-spacing: 2px;
+}
+
+.card .part2 p {
+  color: darkslategray;
+}
+
+.card .part3 {
+  padding: 0px 20px;
+  font-size: 1.2em;
+  color: cornflowerblue;
+}
+
+.card .part4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.card .part4 .country {
+  color: darkslategray;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card .part4 .duration {
+  color: darkslategray;
+}
+
+.card .part4 .cost {
+  color: darkslategray;
+}
+
+.card .part1 .odd-one {
+  bottom: 3px;
+}
+
+.sec4 .sec4-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.sec4 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  background-color: cornflowerblue;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: 0.7s ease;
+}
+
+.sec4 a:hover {
+  transform: scale(1.1);
+  background-color: aqua;
+  color: black;
+}
